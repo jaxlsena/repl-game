@@ -93,7 +93,7 @@ def round(current_hand, deck_of_cards, current_round)
       puts "Dealing another card..."
       hit(current_hand, deck_of_cards, current_round)
     when "stay"
-      puts "Good luck!"
+      puts "Good luck"
       winner(current_hand, deck_of_cards, current_round)
     else
       puts "Please enter: hit or stay."
